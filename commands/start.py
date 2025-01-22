@@ -15,6 +15,6 @@ def press(key):
         Monitor().show(test_basics(), "No hints", 2, 10)
 
 
-Monitor().show(test_basics(), "No hints", 2, 10)
-
-listen_keyboard(on_press=press)
+if __name__=="__main__":
+    Monitor().show(test_basics(), "No hints", 2, 10)
+    listen_keyboard(on_press=press)
