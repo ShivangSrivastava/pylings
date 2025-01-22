@@ -28,6 +28,14 @@ After installing `uv`, you can run the Pylings app with the following command:
 uv run main.py
 ```
 
+### One-Step Installation
+
+To install everything in one go, you can run the following command:
+
+```bash
+curl https://raw.githubusercontent.com/ShivangSrivastava/pylings/refs/heads/master/install.sh | sh
+```
+
 ## Todos
 
 - [ ] Complete start command
